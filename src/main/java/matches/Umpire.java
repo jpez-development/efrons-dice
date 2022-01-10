@@ -62,6 +62,6 @@ public class Umpire {
         }
         char die1Upper = Character.toUpperCase(die1); //uppercase of die1's letter
         char die2Upper = Character.toUpperCase(die2);//uppercase of die2's letter
-        System.out.println("Results from " + die1Upper + " vs " + die2Upper + ":\n" + die1Upper + " won " + winCount1 + "times with a win% of " + (winCount1/(winCount1+winCount2)) + "\n" + die2Upper + " won " + winCount2 + "times with a win% of " + (winCount2/(winCount1+winCount2))); //output results
+        System.out.println("\nResults from " + die1Upper + " vs " + die2Upper + ":\n" + die1Upper + " won " + winCount1 + "times with a win% of " + (winCount1/(winCount1+winCount2)) + "\n" + die2Upper + " won " + winCount2 + "times with a win% of " + (winCount2/(winCount1+winCount2))); //output results
     }
 }
