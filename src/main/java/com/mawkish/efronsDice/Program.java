@@ -1,3 +1,5 @@
+package com.mawkish.efronsDice;
+
 import matches.Umpire;
 
 import java.util.InputMismatchException;
